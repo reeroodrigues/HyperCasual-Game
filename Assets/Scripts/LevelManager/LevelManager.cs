@@ -78,6 +78,8 @@ public class LevelManager : MonoBehaviour
         {
             CreateLevelPiece(_currentSetup.levelPiecesEnd);
         }
+
+        ColorManager.Instance.ChangeColorByType(_currentSetup.artType);
     }
     private void CreateLevelPiece(List<LevelPieceBase> list)
     {
@@ -92,6 +94,11 @@ public class LevelManager : MonoBehaviour
         else
         {
             spawnedPiece.transform.localPosition = Vector3.zero;
+        }
+
+        foreach (var p in spawnedPiece.GetComponentsInChildren<ArtPiece>())
+        {
+            p.ChangePiece(ArtManager.Instance.GetSetupByType(_currentSetup.artType).gameobject);
         }
 
         _spawnedPieces.Add(spawnedPiece);
