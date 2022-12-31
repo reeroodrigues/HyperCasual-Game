@@ -1,6 +1,6 @@
 🚀 HYPERCASUAL GAMES
 
-🕹 THE GAME: HyperCasual Games é um jogo mobile, rápido e simples de fazer, no qual o jogador deve coletar moedas, desviar de inimigos e chegar ao final da fase. Esse tipo de jogo é conhecido por ter uma quantidade infinita de fases, sem muitos assets ou complexidades e com os mais diversos obstáculos e recompensas.
+🕹 O JOGO: HyperCasual Games é um jogo mobile, rápido e simples de fazer, no qual o jogador deve coletar moedas, desviar de inimigos e chegar ao final da fase. Esse tipo de jogo é conhecido por ter uma quantidade infinita de fases, sem muitos assets ou complexidades e com os mais diversos obstáculos e recompensas.
 
 ❗COMO JOGAR: Arraste o seu dedo para a direita ou para a esquerda para mover o personagem.
 
